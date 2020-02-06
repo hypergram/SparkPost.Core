@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>Hypergram</Company>
+    <Authors>Darren Cauthon, Nick Goodliff</Authors>
+    <PackageId>SparkPost.Core.v3</PackageId>
+    <Description>A C# package for the SparkPost API, ported to dotnetcore v3.1</Description>
+    <RepositoryUrl>https://github.com/hypergram/SparkPost.Core</RepositoryUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
